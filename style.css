@@ -1,0 +1,84 @@
+.gradient-background {
+background: linear-gradient(-50deg,
+  #4B0082 0%,       /* Indigo (instead of white) */
+  #A80CCE 25%,      /* Magenta-violet */
+  #6316D5 50%,      /* Deep purple */
+  #2B1DD9 75%,      /* Cool blue */
+  #1B004C 100% );
+  background-size: 180% 180%;
+  animation: gradient-animation 5s ease infinite;
+}
+
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+#my-color{color: #6ADFF3;}
+#my-colorw{color:white}
+.portfolio-logo {
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+#overview-logo {
+    border-radius: 50%;
+
+}
+
+#gothicfont {
+font-family: "Special Gothic Expanded One", sans-serif;}
+@media(min-width:758px) {
+    #maintext {
+        font-size: 18px;
+    }
+
+    #box {
+        padding: 60px;
+    }
+
+    .skilllogo {
+        height: 50px;
+        width: 50px;
+        padding: 5px;
+    }
+}
+
+@media(max-width:767px) {
+    #maintext {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    #box {
+        padding: 25px;
+    }
+
+    #custombtn {
+        font-size: 10px;
+        color: white;
+        background-color: #0D6EFD;
+    }
+
+    #customsvg {
+        height: 5px;
+        width: 5px;
+    }
+
+    .skilllogo {
+        height: 40px;
+        width: 40px;
+        padding: 5px;
+    }
+}
